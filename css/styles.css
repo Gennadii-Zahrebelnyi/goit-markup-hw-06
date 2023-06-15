@@ -117,7 +117,7 @@ font-weight: 700;
     
 }
 
-.hero-btn {
+.hero-btn { 
     font-family: 'Roboto';
     font-weight: 500;
         line-height: 1.5;
@@ -184,12 +184,16 @@ font-family: 'Roboto';
 
 
 .our-tem-list {
+    background-color:var(--cl);
+}
+
+.our-tem-item {
     background-color: var(--main-ligth-cl);
 }
 
-.our-tem-item {}
+.our-tem-img {
 
-.our-tem-img {}
+}
 
 .our-tem-user {
         font-weight: 500;
@@ -204,7 +208,7 @@ font-family: 'Roboto';
         line-height: 1.5;
         text-align: center;
         letter-spacing: 0.02em;
-        color: var(--main-dark-cl);
+        color: var(--grey-cl)
 }
 
 
