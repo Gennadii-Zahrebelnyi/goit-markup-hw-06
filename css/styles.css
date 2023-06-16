@@ -81,7 +81,7 @@ color: var(--main-dark-cl)
         color: var(--main-dark-cl)
 }
 .header-link:hover,
-.header-link:hover{
+.header-link:focus{
     color: #404bbf;
 }
 .header-address {
@@ -125,7 +125,7 @@ font-weight: 700;
 }
 
 .hero-btn { 
-    font-family: 'Roboto';
+   
     font-weight: 500;
         line-height: 1.5;
         display: flex;
