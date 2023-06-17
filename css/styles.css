@@ -1,5 +1,5 @@
 
-:root {
+:root{
 --main-dark-cl: #2E2F42;
 --main-ligth-cl: #FFFFFF;
 --accent-cl: #4D5AE5;
@@ -271,14 +271,17 @@ color: #f4f4fd;
 .portfolio-list {}
 
 .portfolio-button {
+font-family: 'Roboto';
+    font-style: normal;
     font-weight: 500;
-        font-size: 16px;
-        line-height: 1.5;
-        display: flex;
-        align-items: center;
-        text-align: center;
-        letter-spacing: 0.04em;
-        color: #4D5AE5;
+    font-size: 16px;
+    line-height: 1.5;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    letter-spacing: 0.04em;
+    background: #F4F4FD;
+    color: #4D5AE5;
 }
 
 .portfolio-button:hover,
@@ -295,7 +298,15 @@ background-color: #404BBF;
 
 .portfolio-img {}
 
-.portfolio-desc {}
+.portfolio-desc {
+    font-family: 'Roboto';
+        font-style: normal;
+        font-weight: 500;
+        font-size: 20px;
+        line-height: 1.2;
+        letter-spacing: 0.02em;
+        color: #2E2F42;
+}
 
 .portfolio-name {}
 
