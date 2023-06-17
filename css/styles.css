@@ -125,8 +125,9 @@ font-weight: 700;
 }
 
 .hero-btn { 
-   
-    font-weight: 500;
+font-family: "Roboto", sans-serif;
+       font-weight: 500;
+        font-size: 16px;
         line-height: 1.5;
         display: flex;
         align-items: center;
@@ -271,12 +272,13 @@ color: #f4f4fd;
 .portfolio-list {}
 
 .portfolio-button {
-font-family: 'Roboto';
+font-family: 'Roboto',sans-serif;
     font-style: normal;
     font-weight: 500;
     font-size: 16px;
     line-height: 1.5;
     display: flex;
+    cursor: pointer;
     align-items: center;
     text-align: center;
     letter-spacing: 0.04em;
