@@ -5,6 +5,7 @@
 --accent-cl: #4D5AE5;
 --grey-cl: #434455;
 --cl: #F4F4FD;
+--cl-bl: #404bbf;
 }
 
 
@@ -13,7 +14,6 @@ body {
   sans-serif;
   color: var(--grey-cl);
   font-size: 16px;
- font-style: normal;
  background-color: var(--main-ligth-cl);
 }
 
@@ -50,37 +50,35 @@ a{
         line-height: 1.17;
         letter-spacing: 0.03em;
         text-transform: uppercase;
-        color: var(--accent-cl)
+        color: var(--accent-cl);
     }
 
 
 .header-logo-cl{
-color: var(--main-dark-cl)
+color: var(--main-dark-cl);
 }
 
 .header-list {
     font-family: 'Roboto';
-        font-style: normal;
         font-weight: 500;
         font-size: 16px;
         color: var(--main-dark-cl);
 }
 
 .header-item:focus{
-    color: #404bbf
+    color:var(--cl-bl);
 }
 
 .header-link {
-    font-family: 'Roboto';
         font-weight: 500;
         font-size: 16px;
         line-height: 1.5;
         letter-spacing: 0.02em;
-        color: var(--main-dark-cl)
+        color: var(--main-dark-cl);
 }
 .header-link:hover,
 .header-link:focus{
-    color: #404bbf;
+    color: var(--cl-bl);
 }
 .header-address {
     font-style: normal;
@@ -91,16 +89,13 @@ color: var(--main-dark-cl)
 .address-item {}
 
 .address-link {
-   
-        font-weight: 400; 
-        font-style: normal;
         line-height: 1.5;
         letter-spacing: 0.02em;
         color: var(--grey-cl)
 }
 .address-link:hover,
 .address-link:focus{
-color: #404bbf
+color: var(--cl-bl);
 }
 
 .main {}
@@ -130,13 +125,13 @@ font-family: "Roboto", sans-serif;
         letter-spacing: 0.04em;
          cursor: pointer;
         color: var(--main-ligth-cl);
-    background-color: #4D5AE5
+    background-color: var(--accent-cl);
     
 }
 
 .hero-btn:hover,
 .hero-btn:focus{
-background-color: #404BBF
+background-color: var(--cl-bl);
 }
 
 .section-features {}
@@ -146,7 +141,6 @@ background-color: #404BBF
 .features-li {}
 
 .features-strategy {
-        font-weight: 500;
         font-size: 20px;
         line-height: 1.2;
         letter-spacing: 0.02em;
@@ -154,7 +148,6 @@ background-color: #404BBF
 }
 
 .text {
-        font-weight: 400;
         line-height: 1.5;
         letter-spacing: 0.02em;
         color: var(--grey-cl);
@@ -176,12 +169,10 @@ background-color: #404BBF
 .our-work-item {}
 
 .our-tem {
-background-color: #F4F4FD
+background-color: var(--cl);
 }
 
 .our-title{
-font-family: 'Roboto';
-    font-style: normal;
     font-weight: 700;
     font-size: 36px;
     line-height: 1.11;
@@ -208,11 +199,10 @@ font-family: 'Roboto';
         color: var(--main-dark-cl);
 }
 .our-tem-work{
-        font-weight: 400;
         line-height: 1.5;
         text-align: center;
         letter-spacing: 0.02em;
-        color: var(--grey-cl)
+        color: var(--grey-cl);
 }
 
 
@@ -234,7 +224,7 @@ color: var(--accent-cl);
 
 
 .footer-logo-too{
-color: #f4f4fd;
+color: var(--cl);
 }
 .footer-text {
     line-height: 1.5;
@@ -274,14 +264,14 @@ font-family: 'Roboto',sans-serif;
     cursor: pointer;
     text-align: center;
     letter-spacing: 0.04em;
-    background: #F4F4FD;
-    color: #4D5AE5;
+    background: var(--cl);
+    color: var(--accent-cl);
 }
 
 .portfolio-button:hover,
 .portfolio-button:focus{
-color: #FFFFFF;
-background-color: #404BBF;
+color:var(--main-ligth-cl);
+background-color: var(--cl-bl);
 }
 
 .portfolio-section {}
@@ -293,23 +283,18 @@ background-color: #404BBF;
 .portfolio-img {}
 
 .portfolio-desc {
-    font-family: 'Roboto';
-        font-style: normal;
         font-weight: 500;
         font-size: 20px;
         line-height: 1.2;
         letter-spacing: 0.02em;
-        color: #2E2F42;
+        color: var(--main-dark-cl);
 }
 
 .portfolio-name {
-    font-family: 'Roboto';
-        font-style: normal;
-        font-weight: 400;
         font-size: 16px;
         line-height: 1.5;
         letter-spacing: 0.02em;
-        color: #434455;
+        color: var(--grey-cl);
 }
 
 .portfolio-row-two {}
