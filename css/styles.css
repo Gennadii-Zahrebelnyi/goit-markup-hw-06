@@ -17,10 +17,25 @@ body {
  background-color: var(--main-ligth-cl);
 }
 
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p{
+    margin: 0;
+}
+
+
+
+
 .list,
 ul,
 ol{
     list-style: none;
+    margin: 0;
+    padding: 0;
 }
 
 .link,
@@ -29,18 +44,30 @@ a{
     color: currentColor;
 }
 
-
-
-
-
-.header{
+.conteiner{
+    width: 1158px;
+margin-left: auto;
+margin-right: auto;
+padding-left: 15px;
+padding-right: 15px;
 
 }
 
 
 
-.header-nav { 
+.header{
+padding-top: 24px;
+padding-bottom: 24px;
 
+}
+
+.header-conteiner{
+    display: flex;
+}
+
+.header-nav { 
+display: flex;
+align-items: center;
 }
 
 .header-nav-logo {
@@ -56,6 +83,7 @@ a{
 
 .header-logo-cl{
 color: var(--main-dark-cl);
+margin-right: 76px;
 }
 
 .header-list {
@@ -63,6 +91,10 @@ color: var(--main-dark-cl);
         font-weight: 500;
         font-size: 16px;
         color: var(--main-dark-cl);
+        display: flex;
+        align-items: center;
+        gap: 40px;
+        margin-right: 332px;
 }
 
 .header-item:focus{
@@ -75,6 +107,7 @@ color: var(--main-dark-cl);
         line-height: 1.5;
         letter-spacing: 0.02em;
         color: var(--main-dark-cl);
+     
 }
 .header-link:hover,
 .header-link:focus{
@@ -82,9 +115,14 @@ color: var(--main-dark-cl);
 }
 .header-address {
     font-style: normal;
+   
 }
 
-.address-list {}
+.address-list {
+    display: flex;
+    align-items: center;
+    gap: 40px;
+}
 
 .address-item {}
 
@@ -101,9 +139,10 @@ color: var(--cl-bl);
 .main {}
 
 .hero {
- 
-       
+padding-bottom: 188px;
+padding-top: 188px;
 background: var(--main-dark-cl);
+text-align: center;
 }
 
 .hero-taitle {
@@ -113,8 +152,10 @@ font-weight: 700;
     line-height: 1.07;
     text-align: center;
     letter-spacing: 0.02em;
-    color: var(--main-ligth-cl)
-    
+    color: var(--main-ligth-cl);
+    width: 496px;
+    margin: 0 auto;
+   
 }
 
 .hero-btn { 
@@ -126,7 +167,12 @@ font-family: "Roboto", sans-serif;
          cursor: pointer;
         color: var(--main-ligth-cl);
     background-color: var(--accent-cl);
-    
+    min-width: 169px;
+    min-height: 56px;
+padding: 16px 32px;
+border-radius: 4px;
+border: 0;
+     margin-top: 48px;
 }
 
 .hero-btn:hover,
@@ -134,11 +180,20 @@ font-family: "Roboto", sans-serif;
 background-color: var(--cl-bl);
 }
 
-.section-features {}
+.section-features {
+   padding-top: 60px;
+   padding-bottom: 60px;
+}
 
-.features-list {}
+.features-list {
+    display: flex;
+    gap: 24px;
+}
 
-.features-li {}
+.features-li {
+    
+    
+}
 
 .features-strategy {
     font-weight: 500;
@@ -146,6 +201,7 @@ background-color: var(--cl-bl);
         line-height: 1.2;
         letter-spacing: 0.02em;
         color: var(--main-dark-cl);
+        padding-bottom: 8px;
 }
 
 .text {
@@ -154,7 +210,10 @@ background-color: var(--cl-bl);
         color: var(--grey-cl);
 }
 
-.section-our-work {}
+.section-our-work {
+   padding-top: 60px;
+   padding-bottom: 60px;
+}
 
 .our-title {
         font-weight: 700;
@@ -163,13 +222,19 @@ background-color: var(--cl-bl);
         text-align: center;
         letter-spacing: 0.02em;
         color: var(--main-dark-cl);
+        padding-bottom: 72px;
 }
 
-.our-work-list {}
+.our-work-list {
+    display: flex;
+    gap: 24px;
+}
 
 .our-work-item {}
 
 .our-tem {
+    padding-top: 60px;
+    padding-bottom: 60px;
 background-color: var(--cl);
 }
 
@@ -181,13 +246,20 @@ background-color: var(--cl);
     letter-spacing: 0.02em;
     text-transform: capitalize;
     color: var(--main-dark-cl);
+    padding-bottom: 72px;
 }   
+
+.our-tem-list{
+display: flex;
+gap: 34px;
+}
 
 .our-tem-item {
     background-color: var(--main-ligth-cl);
+   
 }
 
-.our-tem-img {
+.our-tem-img {margin-bottom: 32px;
 
 }
 
@@ -208,7 +280,7 @@ background-color: var(--cl);
 
 
 .footer {
-    
+    padding-top: 60px;
         
 background: var(--main-dark-cl);
 }
@@ -221,6 +293,8 @@ background: var(--main-dark-cl);
     letter-spacing: 0.03em;
     text-transform: uppercase;  
 color: var(--accent-cl);
+
+ 
 }
 
 
@@ -230,7 +304,13 @@ color: var(--cl);
 .footer-text {
     line-height: 1.5;
     letter-spacing: 0.02em;
-    color: var(--cl);}
+    color: var(--cl);
+    display: flex;
+        width: 264px;
+        flex-direction: column;
+      padding-top: 18px;
+        padding-bottom: 100px;
+}
 
 
 
@@ -248,13 +328,21 @@ color: var(--cl);
 
 .portfolio-main {}
 
-.portfolio-filter {}
+.portfolio-filter {
+    display: flex;
+}
+
+.button-section{
+    
+}
+
 
 .list {}
 
 .link {}
 
-.portfolio-list {}
+.portfolio-list {
+}
 
 .portfolio-button {
 font-family: 'Roboto',sans-serif;
