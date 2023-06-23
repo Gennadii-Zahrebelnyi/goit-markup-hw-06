@@ -190,7 +190,7 @@ background-color: var(--cl-bl);
 }
 
 .features-name{
-margin-bottom: 8px;
+
 }
 
 
@@ -210,7 +210,7 @@ margin-bottom: 8px;
         line-height: 1.2;
         letter-spacing: 0.02em;
         color: var(--main-dark-cl);
-        padding-bottom: 8px;
+        margin-bottom: 8px;
 }
 
 .text {
@@ -268,8 +268,11 @@ gap: 34px;
    
 }
 
-.our-tem-img {margin-bottom: 32px;
-
+.our-tem-img {
+    margin-bottom: 32px;
+}
+.our-it{
+    
 }
 
 .our-tem-user {
