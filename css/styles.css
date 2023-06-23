@@ -91,6 +91,8 @@ align-items: center;
         text-transform: uppercase;
         color: var(--accent-cl);
         margin-right: 76px;
+        display: flex;
+            align-items: center;
     }
 
 
@@ -114,6 +116,8 @@ color: var(--main-dark-cl);
 
 .header-item:focus{
     color:var(--cl-bl);
+    display: flex;
+        align-items: center;
 }
 
 .header-link {
