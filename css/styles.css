@@ -346,6 +346,7 @@ color: var(--cl);
     justify-content: center;
     gap: 24px;
     margin-bottom: 72px;
+    column-gap: 24px;
 }
 
 .button-section{
