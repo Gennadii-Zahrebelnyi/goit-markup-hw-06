@@ -118,6 +118,7 @@ color: var(--main-dark-cl);
     color:var(--cl-bl);
     display: flex;
         align-items: center;
+        padding: 24px 0;
 }
 
 .header-link {
