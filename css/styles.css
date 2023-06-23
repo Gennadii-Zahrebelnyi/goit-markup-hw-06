@@ -355,7 +355,9 @@ color: var(--cl);
 
 .list {}
 
-.link {}
+.link {
+    width: calc((100% - 48px) / 3);
+}
 
 .portfolio-list {
 }
