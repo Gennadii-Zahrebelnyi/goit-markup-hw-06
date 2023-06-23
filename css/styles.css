@@ -343,6 +343,9 @@ color: var(--cl);
 
 .portfolio-filter {
     display: flex;
+    justify-content: center;
+    gap: 24px;
+    margin-bottom: 72px;
 }
 
 .button-section{
@@ -368,17 +371,26 @@ font-family: 'Roboto',sans-serif;
     letter-spacing: 0.04em;
     background: var(--cl);
     color: var(--accent-cl);
+  padding: 12px 24px;
+ border: 1px solid #e7e9fc;
+border-radius: 4px;
 }
 
 .portfolio-button:hover,
 .portfolio-button:focus{
 color:var(--main-ligth-cl);
 background-color: var(--cl-bl);
+border: 1px solid transparent;
 }
 
-.portfolio-section {}
+.portfolio-section {
+    padding: 96px 0 120px 0;
+}
 
-.portfolio-row-one {}
+.portfolio-row-one {
+    display: flex;
+    flex-wrap: wrap;
+}
 
 .portfolio-item {}
 
