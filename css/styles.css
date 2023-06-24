@@ -29,6 +29,8 @@ p{
 
 img{
     display: block ;
+    max-width: 100%;
+    height: auto;
 }
 
 .visually-hidden {
@@ -224,7 +226,7 @@ background-color: var(--cl-bl);
 
 .features-li {
     
-    
+    width: calc((100% - 72px) / 4)
 }
 
 .features-strategy {
