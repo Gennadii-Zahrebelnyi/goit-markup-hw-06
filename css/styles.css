@@ -78,8 +78,7 @@ border-bottom: 1px solid #e7e9fc;
 .header-conteiner{
     display: flex;
     align-items: center;
-padding-top: 24px;
-    padding-bottom: 24px;
+
 }
 
 .header-nav { 
@@ -115,6 +114,7 @@ color: var(--main-dark-cl);
         align-items: center;
         gap: 40px;
         margin-right: 332px;
+        padding: 24px 0;
 }
 
 .header-item:focus{
