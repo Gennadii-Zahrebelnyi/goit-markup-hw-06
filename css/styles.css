@@ -292,7 +292,13 @@ gap: 24px;
 .our-tem-item {
     background-color: var(--main-ligth-cl);
  gap: 24px;
-}
+display: inline-flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border-radius: 0px 0px 4px 4px;
+    }
+
 
 .our-tem-img {
     margin-bottom: 32px;
