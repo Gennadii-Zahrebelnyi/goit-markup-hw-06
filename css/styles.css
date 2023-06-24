@@ -116,7 +116,7 @@ color: var(--main-dark-cl);
         align-items: center;
         gap: 40px;
         margin-right: 332px;
-        padding: 24px 0;
+    
 }
 
 .header-item:focus{
