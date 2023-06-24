@@ -126,6 +126,8 @@ color: var(--main-dark-cl);
 }
 
 .header-link {
+    display: block;
+    padding: 24px 0;
         font-weight: 500;
         font-size: 16px;
         line-height: 1.5;
@@ -294,6 +296,8 @@ gap: 34px;
 }
 .our-it{
 padding: 32px 16px;
+
+
 }
 
 .our-tem-user {
