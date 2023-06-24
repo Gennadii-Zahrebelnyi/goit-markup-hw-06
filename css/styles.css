@@ -45,6 +45,10 @@ img{
     overflow: hidden;
 }
 
+* {
+    box-sizing: border-box;
+}
+
 .list,
 ul,
 ol{
@@ -110,15 +114,12 @@ color: var(--main-dark-cl);
         align-items: center;
         gap: 40px;
         margin-right: 332px;
-        padding-top: 24px;
-        padding-bottom: 24px;
 }
 
 .header-item:focus{
     color:var(--cl-bl);
     display: flex;
         align-items: center;
-        padding: 24px 0;
 }
 
 .header-link {
