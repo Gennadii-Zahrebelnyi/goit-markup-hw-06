@@ -117,7 +117,7 @@ color: var(--main-dark-cl);
         display: flex;
         align-items: center;
         gap: 40px;
-    
+    margin-right: 232px;
     
 }
 
@@ -273,6 +273,7 @@ background-color: var(--cl);
     letter-spacing: 0.02em;
     text-transform: capitalize;
     color: var(--main-dark-cl);
+    margin-bottom: 72px;
 }   
 
 .our-tem-list{
@@ -328,7 +329,7 @@ background: var(--main-dark-cl);
 color: var(--accent-cl);
 display: inline-block;
 margin-bottom: 16px;
- display: flex;
+display: inline-block;
 }
 
 
