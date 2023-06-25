@@ -330,6 +330,7 @@ color: var(--accent-cl);
 display: inline-block;
 margin-bottom: 16px;
 display: inline-block;
+display: flex;
 }
 
 
