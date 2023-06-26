@@ -99,8 +99,7 @@ align-items: center;
         text-transform: uppercase;
         color: var(--accent-cl);
         margin-right: 76px;
-        display: flex;
-            align-items: center;
+     
     }
 
 
@@ -117,8 +116,7 @@ color: var(--main-dark-cl);
         display: flex;
         align-items: center;
         gap: 40px;
-    margin-right: 232px;
-    
+   
 }
 
 .header-item:focus{
@@ -143,7 +141,7 @@ color: var(--main-dark-cl);
 }
 .header-address {
     font-style: normal;
-   
+   margin-left: auto;
 }
 
 .address-list {
@@ -329,8 +327,6 @@ background: var(--main-dark-cl);
 color: var(--accent-cl);
 display: inline-block;
 margin-bottom: 16px;
-display: inline-block;
-display: flex;
 }
 
 
