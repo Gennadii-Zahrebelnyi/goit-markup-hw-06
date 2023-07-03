@@ -463,7 +463,15 @@ gap: 24px;
 
 .clients-item {}
 
-.client-link {}
+.client-link {
+display: flex;
+    justify-content: center;
+align-items: center;
+
+width: 168px;
+height: 88px;
+border: 1px solid #8E8F99;
+}
 
 .client-icon {}
 
