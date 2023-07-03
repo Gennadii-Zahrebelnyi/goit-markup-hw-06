@@ -451,8 +451,21 @@ border: 1px solid transparent;
 
 
 
+.clients-section {}
 
+.container {}
 
+.clients-list {
+display: flex;
+justify-content: center;
+gap: 24px;
+}
+
+.clients-item {}
+
+.client-link {}
+
+.client-icon {}
 
 
 
