@@ -475,15 +475,22 @@ gap: 24px;
 display: flex;
     justify-content: center;
 align-items: center;
-
 width: 168px;
 height: 88px;
 border: 1px solid #8E8F99;
+border-radius: 4px;
 }
 
-.client-icon {}
+.client-icon {
+width: 104px;
+height: 56px;
+}
 
+.client-link:hover{
+    border-color: #404bbf;;
+}
 
-
-
+.client-link:hover .client-icon{
+    fill: #404bbf;;
+}
 
