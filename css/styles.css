@@ -467,6 +467,7 @@ margin-bottom: 72px;
 display: flex;
 justify-content: center;
 gap: 24px;
+color: #8e8f99;
 }
 
 .clients-item {}
@@ -482,11 +483,11 @@ border-radius: 4px;
 }
 
 .client-icon {
-width: 104px;
-height: 56px;
+fill: currentColor;
 }
 
-.client-link:hover{
+.client-link:hover,
+.client-link:focus{
     border-color: #404bbf;;
 }
 
