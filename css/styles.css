@@ -451,9 +451,17 @@ border: 1px solid transparent;
 
 
 
-.clients-section {}
+.clients-section {
+    padding-top: 120px;
+    padding-bottom: 120px;
+}
 
-.container {}
+.client-title{
+font-size: 36px;
+line-height: 1.11;
+color: #2e2f42;
+margin-bottom: 72px;
+}
 
 .clients-list {
 display: flex;
