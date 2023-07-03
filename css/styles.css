@@ -495,17 +495,10 @@ fill: currentColor;
     fill: #404bbf;;
 }
 
-
-
-
-.footer-blok{
-display: flex;
-    align-items: baseline;
-}
-
 .footer-blok-icon {
 margin-right: 120px;
-
+display: flex;
+    align-items: baseline;
 
 }
 .footer_text-media{
