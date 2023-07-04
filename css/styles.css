@@ -499,6 +499,7 @@ fill: currentColor;
 
 .blok{
 display: flex;
+align-items: baseline,
 }
 
 
