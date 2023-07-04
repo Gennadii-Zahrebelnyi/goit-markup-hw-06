@@ -327,6 +327,7 @@ padding: 32px 16px;
     justify-content: center;
     align-items: center;
 gap: 24px;
+padding: 32px 0;
 }
 
 .tem-icon-item {
