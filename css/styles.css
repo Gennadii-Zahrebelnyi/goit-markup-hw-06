@@ -489,6 +489,7 @@ fill: currentColor;
 .client-link:hover,
 .client-link:focus{
     border-color: #404bbf;
+    color: #404bbf;
 }
 
 .client-link:hover .client-icon{
@@ -527,6 +528,7 @@ gap: 16px;
 .footer-item {
     width: 40px;
     height: 40px;
+    
 }
 
 .footer-div{
