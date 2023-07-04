@@ -310,6 +310,59 @@ padding: 32px 16px;
         color: var(--grey-cl);
 }
 
+<   !!!!!>
+
+
+.tem-icon-blok {
+    padding: 32px 0;
+
+
+}
+
+.tem-icon-list {
+    display: flex;
+    justify-content: center;
+gap: 24px;
+}
+
+.tem-icon-item {
+    width: 40px;
+    height: 40px;
+}
+
+.icon {
+    width: 100%;
+height: 100%;
+background-color:#4d5ae5;
+border-radius:50%;
+display: flex;
+align-items: center;
+justify-content: center;
+}
+
+.icon:focus,
+.icon:hover{
+    background-color: #404bbf;
+
+}
+
+
+.tem-icon-svg {
+fill:#f4f4fd;
+
+
+}
+
+
+
+
+
+
+
+
+
+
+
 
 .footer {
 padding: 100px 0;
@@ -506,7 +559,7 @@ align-items: baseline;
 
 
 .footer-blok-icon {
-display: flex;
+
     align-items: baseline;
 
 }
