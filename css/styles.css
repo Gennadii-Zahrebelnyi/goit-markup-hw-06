@@ -499,7 +499,7 @@ fill: currentColor;
 
 .blok{
 display: flex;
-align-items: baseline,
+align-items: baseline;
 }
 
 
@@ -530,7 +530,7 @@ gap: 16px;
 }
 
 .footer-div{
-margin-right: 120px;
+
 
 }
 
