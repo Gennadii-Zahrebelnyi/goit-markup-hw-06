@@ -191,20 +191,15 @@ padding-bottom: 188px;
 padding-top: 188px;
 background: var(--main-dark-cl);
 text-align: center;
-
-
-
-}
-
-.hero-container{
-background-image: url(../images/hero/people-offic.jpg);
 max-width: 1440px;
+background-image: linear-gradient (rgba(46, 47, 66, 0.7),rgba(46, 47, 66, 0.7)), url(../images/hero/people-offic.jpg);
 background-repeat: no-repeat;
 background-position: center;
 background-size: cover;
-background-image: linear-gradient(rgba(46, 47, 66, 0.7), rgba(46, 47, 66, 0.7)),
-   
 }
+
+.hero-container{}
+
 
 
 .hero-taitle {
