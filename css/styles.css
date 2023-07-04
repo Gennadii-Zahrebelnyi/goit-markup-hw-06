@@ -229,6 +229,38 @@ background-color: var(--cl-bl);
     width: calc((100% - 72px) / 4)
 }
 
+
+
+
+
+
+
+.features-icon-bloc {
+display: flex;
+align-items: center;
+justify-content: center;
+height: 112px;
+background-color: #f4f4fd;
+border-radius: 4px;
+margin-bottom: 8px;
+}
+
+.features-link {}
+
+.features-icon {}
+
+
+
+
+
+
+
+
+
+
+
+
+
 .features-strategy {
     font-weight: 500;
         font-size: 20px;
