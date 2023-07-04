@@ -327,12 +327,13 @@ padding: 32px 16px;
     justify-content: center;
     align-items: center;
 gap: 24px;
-padding: 32px 0;
+
 }
 
 .tem-icon-item {
     width: 40px;
     height: 40px;
+    transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .icon {
