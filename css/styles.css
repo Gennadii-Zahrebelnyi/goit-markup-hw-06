@@ -719,16 +719,29 @@ border-radius: 4px;
     position: absolute;
 top: 24px;
 right: 24px;
+border-radius: 50%;
 display: flex;
 align-items: center;
 justify-content: center;
     width: 24px;
         height: 24px;
+        border: 1px solid rgba(0, 0, 0, 0.1);
         background-color: transparent;
+        background-color: #e7e9fc;
 }
+
+
+.modal-btn:hover,
+  .modal-btn:focus {
+    background-color: #404bbf;
+    border: none;
+    fill: #ffffff
+}
+
 
 .modal-icon {
     stroke:#2E2F42 ;
+    transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 
