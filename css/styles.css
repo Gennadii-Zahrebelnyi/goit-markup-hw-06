@@ -465,7 +465,7 @@ fill:#f4f4fd;
 
 
 
-
+/*------footer------*/
 
 .footer {
 padding: 100px 0;
@@ -476,7 +476,6 @@ background: var(--main-dark-cl);
 .footer-box{
 margin-right: 120px;
 }
-
 
 .footer-logo {
     font-family: 'Raleway', sans-serif ;
@@ -490,7 +489,6 @@ display: inline-block;
 margin-bottom: 16px;
 }
 
-
 .footer-logo-too{
 color: var(--cl);
 }
@@ -498,27 +496,66 @@ color: var(--cl);
     line-height: 1.5;
     letter-spacing: 0.02em;
     color: var(--cl);
-        width: 264px;
-       
+        width: 264px;  
+}
+
+/*----footer-icon----*/
+
+.blok {
+    display: flex;
+    align-items: baseline;
+}
+
+.footer-blok-icon {
+    align-items: baseline;
+}
+
+.footer_text-media {
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+    color: #FFFFFF;
+    margin-bottom: 16px;
+}
+
+.footer-list {
+    display: flex;
+    gap: 16px;
+
+}
+
+.footer-item {
+    width: 40px;
+    height: 40px;
+}
+
+.footer-div {}
+
+.footer-link {
+    width: 100%;
+    height: 100%;
+    background-color: #4d5ae5;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.footer-link:hover,
+.footer-link:focus {
+    background-color: #31d0aa;
+}
+
+.footer-icon {
+    fill: #f4f4fd;
 }
 
 
 
-
-
-
-
-
-
-
 /*---------portfolio-filter-blok-main-------*/
-
-
-
-
 .portfolio-main {}
-
-.button-section {}
 
 .portfolio-filter {
     display: flex;
@@ -530,7 +567,6 @@ color: var(--cl);
     gap: 24px;
 }
 
-
 .portfolio-app{
 display: block;
 transition: box-shadow 250ms cubic-bezier(0.4, 0, 0.2, 1);
@@ -538,8 +574,13 @@ transition: box-shadow 250ms cubic-bezier(0.4, 0, 0.2, 1);
 
 .portfolio-app:hover{
 box-shadow: 0px 1px 6px rgba(46, 47, 66, 0.08), 0px 1px 1px rgba(46, 47, 66, 0.16), 0px 2px 1px rgba(46, 47, 66, 0.08);
-
 }
+
+.portfolio-app:hover .portfolio-overlay-text
+{
+transform: translateY(0%);
+}
+
 
 
 .portfolio-list {
@@ -577,15 +618,15 @@ box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.1), 0px 2px 1px rgba(0, 0, 0, 0.08), 0px
     padding: 96px 0 120px 0;
 }
 
+/*-----portfolio---*/
+
+
 .portfolio-row-one {
     display: flex;
     flex-wrap: wrap;
     column-gap: 24px;
     row-gap: 48px;
 }
-
-
-
 
 .portfolio-overlay{
 position: relative;
@@ -605,9 +646,7 @@ height: 100%;
 width: 100%;
 transform: translateY(100%);
 transition: transform 250ms cubic-bezier(0.4, 0, 0.2, 1);
-
 }
-
 
 .portfolio-item {}
 
@@ -637,8 +676,6 @@ transition: transform 250ms cubic-bezier(0.4, 0, 0.2, 1);
 
 
 /*--------clients-section----*/
-
-
 
 .clients-section {
     padding-top: 120px;
@@ -672,88 +709,20 @@ border-radius: 4px;
 transition:border-color 250ms cubic-bezier(0.4, 0, 0.2, 1),
     color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
-
 .client-icon {
 fill: currentColor;
 }
-
 .client-link:hover,
 .client-link:focus{
     border-color: #404bbf;
     color: #404bbf;
 }
-
 .client-link:hover .client-icon{
     fill: #404bbf;;
 }
 
 
-
-/*----footer-icon----*/
-
-
-
-.blok{
-display: flex;
-align-items: baseline;
-}
-
-.footer-blok-icon {
-
-    align-items: baseline;
-
-}
-.footer_text-media{
-font-weight: 500;
-font-size: 16px;
-line-height: 1.5;
-letter-spacing: 0.02em;
-color: #FFFFFF;
-margin-bottom: 16px;
-}
-
-.footer-list {
-display: flex;
-gap: 16px;
-
-}
-
-.footer-item {
-    width: 40px;
-    height: 40px;
-
-}
-
-.footer-div{
-
-
-}
-
-.footer-link {
-width: 100%;
-height: 100%;
-background-color: #4d5ae5;
-border-radius:50%;
-display: flex;
-align-items: center;
-justify-content: center;
-transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
-
-}
-
-.footer-link:hover,
-.footer-link:focus{
-background-color: #31d0aa;
-}
-
-.footer-icon{
-fill:#f4f4fd;
-}
-
-
-
-
-
+/*------backdrop------*/
 .backdrop {
 position: fixed;
     width: 100%;
@@ -764,7 +733,6 @@ position: fixed;
     transition: opacity 250ms cubic-bezier(0.4, 0, 0.2, 1),
         visibility 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
-
 .modal {
 width: 408px;
     min-height: 584px;
@@ -791,27 +759,21 @@ justify-content: center;
         border: 1px solid rgba(0, 0, 0, 0.1);
         background-color: transparent;
         background-color: #e7e9fc;
-
         padding: 0;
         cursor: pointer;
 transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1), border 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
-
-
 .is-hidden {
     visibility: hidden;
     opacity: 0;
     pointer-events: none;
 }
-
 .modal-btn:hover,
   .modal-btn:focus {
     background-color: #404bbf;
     border: none;
     fill: #ffffff
 }
-
-
 .modal-icon {
     stroke:#2E2F42 ;
     transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
