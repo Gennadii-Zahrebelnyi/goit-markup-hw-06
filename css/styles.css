@@ -449,6 +449,11 @@ padding: 100px 0;
 background: var(--main-dark-cl);
 }
 
+.footer-box{
+    margin-right: 120px;
+}
+
+
 .footer-logo {
     font-family: 'Raleway', sans-serif ;
     font-weight: 800;
