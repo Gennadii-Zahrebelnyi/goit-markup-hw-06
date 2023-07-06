@@ -475,6 +475,7 @@ background: var(--main-dark-cl);
 
 .footer-box{
 margin-right: 120px;
+    margin-left: 10px;
 }
 
 .footer-logo {
