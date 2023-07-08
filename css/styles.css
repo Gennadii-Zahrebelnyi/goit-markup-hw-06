@@ -551,7 +551,10 @@ color: var(--cl);
 .footer-icon {
     fill: #f4f4fd;
 }
-.footer-subscribe-box{}
+.footer-subscribe-box{
+margin-left: 80px;
+
+}
 .footer-subscribe-text {
     margin-bottom: 16px;
 font-weight: 500;
