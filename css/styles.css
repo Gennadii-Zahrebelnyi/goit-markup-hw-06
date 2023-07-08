@@ -852,7 +852,9 @@ transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1), border 250ms cu
     margin-bottom: 16px;
 }
 
-.modal-box {}
+.modal-box {
+padding: 72px 24px 24px 24px;
+}
 
 .modal-label-name {
     font-size: 12px;
@@ -865,7 +867,7 @@ transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1), border 250ms cu
 
 .modal-box-inform {
     position: relative;
-
+margin-bottom: 8px;
 }
 
 .modal-input {
@@ -889,7 +891,8 @@ border-color: #4D5AE5;
     top: 50%;
     transform: translateY(-50%);
     fill: #4D5AE5;
-    
+transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
+
 }
 
 
