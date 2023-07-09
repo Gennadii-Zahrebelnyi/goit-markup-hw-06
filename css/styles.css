@@ -942,6 +942,10 @@ border-color: #4D5AE5;
 
 }
 
+.modal-checkbox-color-text{
+color: #4d5ae5;
+}
+
 .modal-checkbox-span {
     width: 16px;
     height: 16px;
