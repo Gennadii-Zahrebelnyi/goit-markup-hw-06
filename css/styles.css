@@ -985,5 +985,10 @@ background-color: #404bbf;
 border: none;
 fill:#F4F4FD;
 }
+input[type="checkbox"]:checked + span{
+    background-color: #404bbf;
+        border: none;
+        fill: #F4F4FD;
+    }
 
 
