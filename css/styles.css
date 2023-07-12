@@ -961,9 +961,14 @@ color: #4d5ae5;
     align-items: center;
     justify-content: center;
     fill: transparent;
+    margin-right: 8px;
 }
 
-.modal-checkbox-svg {}
+.modal-checkbox-svg {
+
+fill: #F4F4FD;
+
+}
 
 .modal-checkbox-button {
     display: block;
