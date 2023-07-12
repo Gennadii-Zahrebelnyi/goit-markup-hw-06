@@ -892,17 +892,19 @@ margin-bottom: 8px;
 border-color: #4D5AE5;
 }
 
-
-
 .modal-svg {
     position: absolute;
     left: 16px;
     top: 50%;
     transform: translateY(-50%);
-    fill:#2E2F42;
+    fill: #2E2F42;
      transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+.modal-svg:focus{
 
 }
+
+
 .modal-box-comment{
 margin-bottom: 16px;
 }
