@@ -852,7 +852,7 @@ transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
     fill: #ffffff
 }
 .modal-icon {
-    transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
+
 }
 
 
@@ -957,7 +957,8 @@ border-color: #4D5AE5;
     line-height: 1.17;
     letter-spacing: 0.04em;
     color: #8e8f99;
-
+    display: flex;
+    align-items: center;
 }
 
 .modal-checkbox-color-text{
@@ -983,7 +984,6 @@ text-decoration: underline;
 position: absolute;
 fill: #F4F4FD;
     transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
-   
 }
 
 
