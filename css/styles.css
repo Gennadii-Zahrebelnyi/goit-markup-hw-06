@@ -69,8 +69,8 @@ a{
     padding-right: 16px;
     padding-left: 16px;
 
-outline: 2px solid red;
-outline-offset: -2px;
+/* outline: 2px solid red;
+outline-offset: -2px; */
 }
 
 
@@ -78,16 +78,16 @@ outline-offset: -2px;
 @media only screen and (min-width: 768px) {
 .container{
     max-width: 768px;
-    outline: 2px solid green;
-        outline-offset: -2px;
+    /* outline: 2px solid green;
+        outline-offset: -2px; */
   }
 }
 /*----- Desktop screen--*/
 @media only screen and (min-width: 1158px) {
 .container  {
     max-width: 1128px;
-    outline: 2px solid goldenrod;
-        outline-offset: -2px;
+    /* outline: 2px solid goldenrod;
+        outline-offset: -2px; */
   }
 }
 
